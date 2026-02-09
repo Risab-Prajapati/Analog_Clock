@@ -51,6 +51,18 @@ body {
   z-index: 2;
 }
 
+.clock #second i {
+  width: 6px;
+  height: 130px;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+}
+
+.clock #hour i {
+  width: 9px;
+  height: 110px;
+}
+
 .hand {
   position: absolute;
   display: flex;
@@ -60,7 +72,7 @@ body {
 
 .hand i {
   height: 120px;
-  width: 7px;
+  width: 7.5px;
   border-radius: 7px;
   background-color: var(--clr);
   position: absolute;
